@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class App extends Component{
+class App extends Component{
   
   state ={
     num:0,
@@ -24,3 +24,5 @@ remove = ()=>{
   }
 
 }
+
+export default App;
